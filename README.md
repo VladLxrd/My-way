@@ -1,3 +1,11 @@
+!!!!!!
+To run a local server you need:
+1. combine all attached files into a shared folder 'Your-name'
+2. In cmd go to this folder and write "npm start"
+!!!!!!
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
