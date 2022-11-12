@@ -1,0 +1,96 @@
+
+*{
+  box-sizing: border-box;
+}
+body{
+  color: aqua;
+  font-size: 30px;
+  background: lemonchiffon;
+}
+.row:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.row { display: inline-block; }
+/* start commented backslash hack \*/
+* html .row { height: 1%; }
+.row { display: block; }
+.header {
+  margin-bottom: 10px;
+}
+.inner-header{
+  background:#E19377 ;
+  height: 200px;
+}
+.content {
+  
+  width: 40%;
+  float: left;
+}
+.content-1{
+  width: 50%;
+  float: left;
+  padding-right: 10px;
+
+}
+.inner-content-1{
+  background: #f5b59e;
+  min-height: 400px;
+}
+.content-2{
+  width: 50%;
+  float: left;
+  
+}
+.inner-content-2{
+  background: #f5b59e;
+  min-height: 400px;
+}
+.inner-content{
+  background: #E19377;
+  min-height: 710px;
+  padding: 10px;
+}
+.sidebars{
+  width: 60%;
+  float: left;
+}
+.sidebar-1{
+  width: 33.33%;
+  float: left;
+  padding-left: 10px;
+}
+.inner-sidebar-1{
+  background: #E19377;
+  min-height: 500px;
+}
+.sidebar-2{
+  width: 33.33%;
+  float: left;
+  padding-left: 10px;
+}
+.inner-sidebar-2{
+  background: #E19377;
+  min-height: 500px;
+}
+.sidebar-3{
+  width: 33.33%;
+  float: left;
+  padding-left: 10px;
+}
+.inner-sidebar-3{
+  background: #E19377;
+  min-height: 500px;
+}
+.footer {
+  padding-left: 10px;
+  margin-top: 10px;
+}
+.inner-footer{
+  background:#E19377 ;
+  height: 200px;
+}
